@@ -2,5 +2,6 @@
 inventori_barang
 
 
-username : admin@gmail.com \n
+username : admin@gmail.com    & 
+
 password : admin123
