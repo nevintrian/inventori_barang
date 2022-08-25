@@ -39,7 +39,7 @@
                                                     <td><?= $barang_keluar->total_barang ?></td>
                                                     <td><?= $barang_keluar->total_harga ?></td>
                                                     <td>
-                                                        <!-- <a href="#" class="btn btn-primary btn-view" data-id="<?= $barang_keluar->id; ?>"><i class="fa fa-eye"></i></a> -->
+                                                        <a href="../barang_keluar_detail?id=<?= $barang_keluar->id ?>" class="btn btn-primary"><i class="fa fa-eye"></i></a>
                                                         <a href="#" class="btn btn-danger btn-delete" data-id="<?= $barang_keluar->id; ?>"><i class="fa fa-trash"></i></a>
                                                     </td>
                                                 </tr>
